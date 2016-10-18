@@ -77,9 +77,8 @@ def filenamecover(path,recursive=1):
 
 
 
-
-
-filenamecover(path,recursive)
+if __name__ == '__main__':
+    filenamecover(path,recursive)
 
 
 
